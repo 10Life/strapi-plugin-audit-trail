@@ -1,9 +1,9 @@
 {
-  "name": "strapi-plugin-audit-trail",
+  "name": "@10life/strapi-plugin-audit-trail",
   "version": "1.0.0",
   "description": "Keep track to user activities.",
   "strapi": {
-    "name": "Audit Trail",
+    "name": "audit-trail",
     "description": "Keep track to user activities",
     "kind": "plugin",
     "displayName": "Audit Trail"
