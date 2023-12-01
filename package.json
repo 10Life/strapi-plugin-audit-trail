@@ -1,0 +1,33 @@
+{
+  "name": "strapi-plugin-audit-trail",
+  "version": "1.0.0",
+  "description": "Keep track to user activities.",
+  "strapi": {
+    "name": "Audit Trail",
+    "description": "Keep track to user activities",
+    "kind": "plugin",
+    "displayName": "Audit Trail"
+  },
+  "files": [
+    "admin",
+    "server",
+    "strapi-admin.js",
+    "strapi-server.js"
+  ],
+  "dependencies": {},
+  "peerDependencies": {
+    "@strapi/strapi": "^4.4.0"
+  },
+  "author": {
+    "name": "Roy To"
+  },
+  "maintainers": [
+    {
+      "name": "Roy To"
+    }
+  ],
+  "engines": {
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
