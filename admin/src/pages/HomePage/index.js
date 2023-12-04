@@ -12,7 +12,7 @@ import { BaseHeaderLayout, ContentLayout } from '@strapi/design-system/Layout';
 import { Grid, GridItem } from '@strapi/design-system/Grid';
 import Trash from '../../components/TrashIcon';
 import logRequests from '../../api/log-request';
-const name = pluginPkg.strapi.name;
+const name = "Audit Trail";
 
 const HomePage = () => {
   const [isButton1Loading, setIsButton1Loading] = useState(false);
