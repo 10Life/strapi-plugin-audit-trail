@@ -5,7 +5,6 @@
  */
 
 import React, {useState} from 'react';
-import pluginPkg from '../../../../package.json';
 import { Typography } from '@strapi/design-system/Typography';
 import { Button } from '@strapi/design-system/Button';
 import { BaseHeaderLayout, ContentLayout } from '@strapi/design-system/Layout';
