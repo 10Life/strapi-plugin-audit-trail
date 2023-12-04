@@ -8,6 +8,14 @@
     "kind": "plugin",
     "displayName": "Audit Trail"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/10Life/strapi-plugin-audit-trail.git"
+  },
+  "keywords": [
+    "strapi",
+    "audit"
+  ],
   "files": [
     "admin",
     "server",
