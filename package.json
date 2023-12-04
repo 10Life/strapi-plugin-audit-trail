@@ -1,13 +1,21 @@
 {
-  "name": "strapi-plugin-audit-trail",
-  "version": "1.0.0",
+  "name": "@10life/strapi-plugin-audit-trail",
+  "version": "1.0.3",
   "description": "Keep track to user activities.",
   "strapi": {
-    "name": "Audit Trail",
+    "name": "audit-trail",
     "description": "Keep track to user activities",
     "kind": "plugin",
     "displayName": "Audit Trail"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/10Life/strapi-plugin-audit-trail.git"
+  },
+  "keywords": [
+    "strapi",
+    "audit"
+  ],
   "files": [
     "admin",
     "server",
