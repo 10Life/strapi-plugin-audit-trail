@@ -10,6 +10,13 @@ To enable this plugin, put the following code in `/config/plugin.js`:
     enabled: true,
   },
 ```
+Add in /config/middleware.js
+```
+module.exports = ({ env }) => [
+  \\ other middleware
+  'plugin::audit-trail.logActivity'
+];
+```
 
 # Road Map
 - provide config for audit items
